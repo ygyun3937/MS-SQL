@@ -1,4 +1,4 @@
-#select
+#데이터 조회하기
  // * : 모든 열, Person : 스키마(그룹), 
  - select * from Person.EmailAdderess; 
  
@@ -12,4 +12,17 @@
  - select top 10 EmailAddressID,EmailAddress from Person.EmailAddress; 
  
  //상위 10개 EmailAddressID,EmailAddress 열 데이터 중 이메일 주소가 a1@adventure-works.com 인 데이터
+ //where : 특정 조건 설정
 ​ - select top 10 EmailAddressID,EmailAddress from Person.EmailAddress where EmailAddress='a1@adventure-works.com';
+
+
+#데이터 저장하기
+//예외처리 
+////메시지 2627, 수준 14, 상태 1, 줄 1 PRIMARY KEY 제약 조건 'PK_EmailAddress_BusinessEntityID_EmailAddressID'을(를) 위반했습니다. 개체 'Person.EmailAddress'에 중복 키를 삽입할 수 없습니다. 중복 키 값은 (20000, 20000)입니다.문이 종료되었습니다.
+set identity_insert Person.EmailAddress ON;
+
+//데이터 저장
+insert into Person.EmailAddress (BusinessEntityID, EmailAddressID, EmailAddress, rowguid, ModifiedDate) 
+//values 가 형식과 안맞는 경우 
+//메시지 8169, 수준 16, 상태 2, 줄 2 문자열을 uniqueidentifier로 변환하지 못했습니다. 해당 메시지 에러 발생
+values (20000, 20000, 'test@test.com',N'9AADCB0D-36CF-483F-84D8-585C2D4EC6E9', getdate());
