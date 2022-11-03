@@ -24,5 +24,6 @@ set identity_insert Person.EmailAddress ON;
 //데이터 저장
 insert into Person.EmailAddress (BusinessEntityID, EmailAddressID, EmailAddress, rowguid, ModifiedDate) 
 //values 가 형식과 안맞는 경우 
+-
 //메시지 8169, 수준 16, 상태 2, 줄 2 문자열을 uniqueidentifier로 변환하지 못했습니다. 해당 메시지 에러 발생
 values (20000, 20000, 'test@test.com',N'9AADCB0D-36CF-483F-84D8-585C2D4EC6E9', getdate());
