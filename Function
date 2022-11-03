@@ -1,0 +1,5 @@
+#select
+ - select * from Person.EmailAdderess; // * : 모든 열, Person : 스키마(그룹), 
+ - select top 10 * from Person.EmailAdderess; //상위 10개 모든 열 데이터
+ - select top 10 EmailAddressID from Person.EmailAdderess; //상위 10개 EmailAddressID 열 데이터
+ - 
