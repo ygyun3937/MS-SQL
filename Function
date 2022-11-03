@@ -1,15 +1,15 @@
 #select
- ## * : 모든 열, Person : 스키마(그룹), 
+ // * : 모든 열, Person : 스키마(그룹), 
  - select * from Person.EmailAdderess; 
  
- ##상위 10개 모든 열 데이터
+ //상위 10개 모든 열 데이터
  - select top 10 * from Person.EmailAdderess; 
  
- ##상위 10개 EmailAddressID 열 데이터
+ //상위 10개 EmailAddressID 열 데이터
  - select top 10 EmailAddressID from Person.EmailAdderess; 
  
- ##상위 10개 EmailAddressID,EmailAddress 열 데이터
+ //상위 10개 EmailAddressID,EmailAddress 열 데이터
  - select top 10 EmailAddressID,EmailAddress from Person.EmailAddress; 
  
- ##상위 10개 EmailAddressID,EmailAddress 열 데이터 중 이메일 주소가 a1@adventure-works.com 인 데이터
+ //상위 10개 EmailAddressID,EmailAddress 열 데이터 중 이메일 주소가 a1@adventure-works.com 인 데이터
 ​ - select top 10 EmailAddressID,EmailAddress from Person.EmailAddress where EmailAddress='a1@adventure-works.com';
