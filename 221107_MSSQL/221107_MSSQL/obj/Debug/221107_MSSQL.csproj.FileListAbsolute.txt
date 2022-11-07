@@ -1,0 +1,15 @@
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\bin\Debug\221107_MSSQL.exe.config
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\bin\Debug\221107_MSSQL.exe
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\bin\Debug\221107_MSSQL.pdb
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL.csprojAssemblyReference.cache
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\MainWindow.g.cs
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\App.g.cs
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL_MarkupCompile.cache
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL_MarkupCompile.lref
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\MainWindow.baml
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL.g.resources
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\_221107_MSSQL.Properties.Resources.resources
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL.csproj.GenerateResource.cache
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL.csproj.CoreCompileInputs.cache
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL.exe
+D:\Project\SQL\221107_MSSQL\221107_MSSQL\obj\Debug\221107_MSSQL.pdb
