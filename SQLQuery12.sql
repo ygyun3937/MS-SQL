@@ -1,0 +1,1 @@
+insert into test2 select * from TestTable;
