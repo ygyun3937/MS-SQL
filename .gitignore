@@ -3,3 +3,6 @@
 ################################################################################
 
 *.lock
+/.vs/221107_MSSQL/v15/Server/sqlite3/storage.ide-wal
+/.vs/221107_MSSQL/v15/Server/sqlite3/storage.ide-shm
+/.vs/221107_MSSQL/v15/Server/sqlite3/storage.ide
